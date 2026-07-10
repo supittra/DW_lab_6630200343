@@ -4,3 +4,5 @@ dbt init <dbt-project-name>
 
 cd <dbt-project-name>
 dbt debug
+#out
+cd ..
