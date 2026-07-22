@@ -11,7 +11,44 @@ sources:
       - name: customer - customer                # Maps straight to datasets/customer.csv
         description: "Customer data from the Northwind dataset"
       - name: products - products                # Maps straight to datasets/products.csv
-        description: "Product data from the Northwind dataset"
+        description: "Product data from the Northwind dataset" 
+      - name: employee_privileges - employee_privileges                # Maps straight to datasets/employee.csv
+        description: "Employee data from the Northwind dataset"
+      - name: employees - employees                # Maps straight to datasets/orders.csv
+        description: "employees data from the Northwind dataset"
+      - name: inventory_transaction_types - inventory_transaction_types               # Maps straight to datasets/orders.csv
+        description: "inventory_transaction_types data from the Northwind dataset"
+      - name: inventory_transactions - inventory_transactions                # Maps straight to datasets/orders.csv
+        description: "inventory_transactions data from the Northwind dataset"
+      - name: invoices - invoices               # Maps straight to datasets/orders.csv
+        description: "invoices data from the Northwind dataset"
+      - name: order_details - order_details              # Maps straight to datasets/orders.csv
+        description: "order_details data from the Northwind dataset"
+      - name: order_details_status - order_details_status               # Maps straight to datasets/orders.csv
+        description: "order_details_status data from the Northwind dataset"
+      - name: orders_tax_status - orders_tax_status             # Maps straight to datasets/orders.csv
+        description: "orders_tax_status data from the Northwind dataset"
+      - name: privileges - privileges             # Maps straight to datasets/orders.csv
+        description: "privileges data from the Northwind dataset"
+      - name: purchase_order_details - purchase_order_details             # Maps straight to datasets/orders.csv
+        description: "purchase_order_details data from the Northwind dataset"
+      - name: purchase_orders - purchase_orders             # Maps straight to datasets/orders.csv
+        description: "purchase_orders data from the Northwind dataset"
+      - name: purchase_order_status - purchase_order_status            # Maps straight to datasets/orders.csv
+        description: "purchase_order_status data from the Northwind dataset"
+      - name: sales_reports - sales_reports           # Maps straight to datasets/orders.csv
+        description: "sales_reports data from the Northwind dataset"
+      - name: shippers - shippers           # Maps straight to datasets/orders.csv
+        description: "shippers data from the Northwind dataset"
+      - name: suppliers - suppliers           # Maps straight to datasets/orders.csv
+        description: "suppliers data from the Northwind dataset"
+      - name: strings - strings           # Maps straight to datasets/orders.csv
+        description: "strings data from the Northwind dataset"
+      - name: orders - orders          # Maps straight to datasets/orders.csv
+        description: "orders data from the Northwind dataset"
+      - name: orders_status - orders_status          # Maps straight to datasets/orders.csv
+        description: "orders_status data from the Northwind dataset"
+
 
 
       
